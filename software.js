@@ -1,0 +1,2 @@
+document.getElementById("nav").innerHTML = 
+    "<ul class=\"nav nav-tabs\" style=\"border-bottom-color:white\"> <li class=\"nav-item\"> <a class=\"nav-link\" href=\"./index.html\">Home</a> </li> <li> <a class=\"nav-link active\" href=\"./software.html\">Software</a> </li></ul>";

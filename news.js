@@ -1,7 +1,32 @@
 news = [
     {
-        "date": "Sept. 2019",
-        "body": "Submitted a paper, titled <a class=\"news\" href=\"./publications/chandan2020when.pdf\" target=\"_blank\">When showing your hand pays off: Announcing strategic intentions in Colonel Blotto games</a> to the <i>2020 American Control Conference</i>, in Denver, CO.",
+        "date": "Sept. 2020",
+        "body": "Submitted our paper, titled <a class=\"news\" href=\"./publications/paccagnan2020incentivizing.pdf\" target=\"_blank\">Incentivizing efficient use of shared infrastructure: Optimal tolls in congestion games</a> to <i>Transactions on Economics and Computation</i>.",
+        "url": ""
+    },
+    {
+        "date": "July 2020",
+        "body": "Presented my paper, titled <a class=\"news\" href=\"./publications/chandan2020when.pdf\" target=\"_blank\">Optimal Price of Anarchy in Cost-Sharing Games</a> at my first virtual conference, the <i>2020 American Control Conference</i>, which was to take place in Denver, CO.",
+        "url": ""
+    },
+    {
+        "date": "June 2020",
+        "body": "Submitted our paper, titled <a class=\"news\" href=\"./publications/chandan2020whensmoothness.pdf\" target=\"_blank\">When Smoothness is Not Enough: Toward Exact Quantification and Optimization of the Price of Anarchy</a> to <i>Operations Research</i>.",
+        "url": ""
+    },
+    {
+        "date": "March 2020",
+        "body": "Relocated to Ottawa, Canada in response to the Covid-19 outbreak and consequent lockdowns. I am still continuing my PhD work and will be available to meet virtually over Zoom and Skype.",
+        "url": ""
+    },
+    {
+        "date": "January 2020",
+        "body": "My paper, titled <a class=\"news\" href=\"./publications/chandan2020when.pdf\" target=\"_blank\">When showing your hand pays off: Announcing strategic intentions in Colonel Blotto games</a> was accepted to the <i>2020 American Control Conference</i>, in Denver, CO.",
+        "url": ""
+    },
+    {
+        "date": "December 2019",
+        "body": "Presented my paper, titled <a class=\"news\" href=\"./publications/chandan2019when.pdf\" target=\"_blank\">When Smoothness is Not Enough: Toward Exact Quantification and Optimization of the Price-of-Anarchy</a> at the <i>2019 Conference on Decision and Control</i>, in Nice, France.",
         "url": ""
     },
     {

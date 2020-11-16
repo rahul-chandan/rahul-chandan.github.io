@@ -6,7 +6,7 @@ news = [
     },
     {
         "date": "July 2020",
-        "body": "Presented my paper, titled <a class=\"news\" href=\"./publications/chandan2020when.pdf\" target=\"_blank\">Optimal Price of Anarchy in Cost-Sharing Games</a> at my first virtual conference, the <i>2020 American Control Conference</i>, which was to take place in Denver, CO.",
+        "body": "Presented my paper, titled <a class=\"news\" href=\"./publications/chandan2020when.pdf\" target=\"_blank\">When showing your hand pays off: Announcing strategic intentions in Colonel Blotto games</a> at my first virtual conference, the <i>2020 American Control Conference</i>, which was to take place in Denver, CO.",
         "url": ""
     },
     {
@@ -16,7 +16,7 @@ news = [
     },
     {
         "date": "March 2020",
-        "body": "Relocated to Ottawa, Canada in response to the Covid-19 outbreak and consequent lockdowns. I am still continuing my PhD work and will be available to meet virtually over Zoom and Skype.",
+        "body": "Relocated to Ottawa, Canada in response to the Covid-19 outbreak and consequent lockdowns. I am still continuing my PhD work and will be available to meet virtually.",
         "url": ""
     },
     {

@@ -4,7 +4,7 @@ publications = [
         {
             "title": "Tractable mechanisms for computing near-optimal utility functions",
             "authors": "<b>R. Chandan</b>, D. Paccagnan and J. R. Marden",
-            "conference": "AAMAS",
+            "conference": "AAMAS 2021",
             "date": "2021",
             "status": "accepted",
             "pdfFile": "./publications/chandan2020tractable.pdf",

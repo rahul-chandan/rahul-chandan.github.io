@@ -1,7 +1,7 @@
 news = [
     {
         "date": "December 2020",
-        "body": "My paper, titled <a class=\"news\" href=\"./publications/chandan2020tractable.pdf\" target=\"_blank\">Tractable mechanisms for computing near-optimal utility functions</a> was accepted to the <i>20th International Conference on Autonomous Agents and Multiagent Systems</i>.",
+        "body": "My paper, titled <a class=\"news\" href=\"./publications/chandan2021tractable.pdf\" target=\"_blank\">Tractable mechanisms for computing near-optimal utility functions</a> was accepted to the <i>20th International Conference on Autonomous Agents and Multiagent Systems</i>.",
         "url": ""
     },
     {

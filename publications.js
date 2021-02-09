@@ -7,7 +7,7 @@ publications = [
             "conference": "AAMAS 2021",
             "date": "2021",
             "status": "accepted",
-            "pdfFile": "./publications/chandan2020tractable.pdf",
+            "pdfFile": "./publications/chandan2021tractable.pdf",
             "url": "",
             "abstract": "Large scale multiagent systems must rely on distributed decision making, as centralized coordination is either impractical or impossible. Recent works approach this problem under a game theoretic lens, whereby utility functions are assigned to each of the agents with the hope that their local optimization approximates the centralized optimal solution. Yet, formal guarantees on the resulting performance cannot be obtained for broad classes of problems without compromising on their accuracy. In this work, we address this concern relative to the well-studied problem of resource allocation with nondecreasing submodular welfare functions. We show that optimally designed local utilities achieve an approximation ratio (price of anarchy) of `1−c/e`, where `c` is the function’s curvature and `e` is Euler’s constant. The upshot of our contributions is the design of approximation algorithms that are distributed and efficient, and whose performance matches that of the best existing (and centralized) schemes."
         },

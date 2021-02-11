@@ -8,7 +8,7 @@ publications = [
             "date": "2021",
             "status": "accepted",
             "pdfFile": "./publications/chandan2021tractable.pdf",
-            "url": "",
+            "url": "https://arxiv.org/abs/2102.04542",
             "abstract": "Large scale multiagent systems must rely on distributed decision making, as centralized coordination is either impractical or impossible. Recent works approach this problem under a game theoretic lens, whereby utility functions are assigned to each of the agents with the hope that their local optimization approximates the centralized optimal solution. Yet, formal guarantees on the resulting performance cannot be obtained for broad classes of problems without compromising on their accuracy. In this work, we address this concern relative to the well-studied problem of resource allocation with nondecreasing submodular welfare functions. We show that optimally designed local utilities achieve an approximation ratio (price of anarchy) of `1−c/e`, where `c` is the function’s curvature and `e` is Euler’s constant. The upshot of our contributions is the design of approximation algorithms that are distributed and efficient, and whose performance matches that of the best existing (and centralized) schemes."
         },
         {
@@ -18,7 +18,7 @@ publications = [
             "date": "2020",
             "status": "submitted",
             "pdfFile": "./publications/paccagnan2020incentivizing.pdf",
-            "url": "https://arxiv.org/pdf/1911.09806.pdf",
+            "url": "https://arxiv.org/abs/1911.09806v3",
             "abstract": "How can we design mechanisms to promote efficient use of shared resources? Here, we answer this question in relation to the well-studied class of atomic congestion games, used to model a variety of problems, including traffic routing. Within this context, a methodology for designing tolling mechanisms that minimize the system inefficiency (price of anarchy) exploiting solely local information is so far missing in spite of the scientific interest. In this manuscript we resolve this problem through a tractable linear programming formulation that applies to and beyond polynomial congestion games. When specializing our approach to the polynomial case, we obtain tight values for the optimal price of anarchy and corresponding tolls, uncovering an unexpected link with load balancing games. We also derive optimal tolling mechanisms that are constant with the congestion level, generalizing the results of [8] to polynomial congestion games and beyond. Finally, we apply our techniques to compute the efficiency of the marginal cost mechanism. Surprisingly, optimal tolling mechanism using only local information perform closely to existing mechanism that utilize global information [6], while the marginal cost mechanism, known to be optimal in the continuous-flow model, has lower efficiency than that encountered levying no toll. All results are tight for pure Nash equilibria, and extend to coarse correlated equilibria."
         },
         {
@@ -38,7 +38,7 @@ publications = [
             "date": "2020",
             "status": "presented",
             "pdfFile": "./publications/chandan2020when.pdf",
-            "url": "https://arxiv.org/pdf/2002.11648",
+            "url": "https://arxiv.org/abs/2002.11648v2",
             "abstract": "In competitive adversarial environments, it is often advantageous to obfuscate one’s strategies or capabilities. However, revealing one’s strategic intentions may shift the dynamics of the competition in complex ways. Can it ever be advantageous to reveal strategic intentions to an opponent? In this paper, we consider three-stage Colonel Blotto games in which one player can choose whether or not to pre-commit resources to a single battlefield before play begins. This pre-commitment is public knowledge. In response, the opponent can either secure the battlefield by matching the pre-commitment with its own forces, or withdraw. In a two-player setting, we show that a weaker player never has an incentive to pre-commit any amount of resources to a battlefield regardless of how valuable it is. We then consider a three-player setting in which two players fight against a common adversary on separate fronts. Only one of the two players facing the adversary has the option of pre-committing. We find there are instances where this player benefits from pre-committing. The analysis indicates that under non-cooperative team settings and no possibility of forming alliances, there can be incentives to publicly announce one’s strategic intentions to an adversary."
         },
         {
@@ -48,7 +48,7 @@ publications = [
             "date": "2019",
             "status": "accepted",
             "pdfFile": "./publications/paccagnan2019utility.pdf",
-            "url": "https://arxiv.org/abs/1807.01333",
+            "url": "https://arxiv.org/abs/1807.01333v3",
             "abstract": "Game theory has emerged as a fruitful paradigm for the design of networked multiagent systems. A fundamental component of this approach is the design of agents' utility functions so that their self-interested maximization results in a desirable collective behavior. In this work we focus on a well-studied class of distributed resource allocation problems where each agent is requested to select a subset of resources with the goal of optimizing a given system-level objective. Our core contribution is the development of a novel framework to tightly characterize the worst case performance of any resulting Nash equilibrium (price of anarchy) as a function of the chosen agents' utility functions. Leveraging this result, we identify how to design such utilities so as to optimize the price of anarchy through a tractable linear program. This provides us with a priori performance certificates applicable to any existing learning algorithm capable of driving the system to an equilibrium. Part II of this work specializes these results to submodular and supermodular objectives, discusses the complexity of computing Nash equilibria, and provides multiple illustrations of the theoretical findings."
         },
         {
@@ -58,7 +58,7 @@ publications = [
             "date": "",
             "status": "presented",
             "pdfFile": "./publications/paarporn2019characterizing.pdf",
-            "url": "https://arxiv.org/abs/1909.03382",
+            "url": "https://arxiv.org/abs/1909.03382v2",
             "abstract": "In competitive interactions between two opposing adversaries, informational asymmetries may provide an advantage to one competitor over the other. The application domains of this interplay are numerous, such as the security of cyber-physical systems, politics, and advertising campaigns. Hence it is important to identify the value information offers in these contests. In this paper, we investigate informational asymmetries in the Colonel Blotto game, which is a gametheoretic model of competitive resource allocation between two players over a finite set of battlefields. We consider a case where the battlefield valuations are subject to randomness, and one of the two players knows the valuations with certainty. The other knows only a distribution on the battlefield realizations. However, the informed player has fewer resources to allocate. We study a two battlefield setup in the Colonel Blotto game. We then focus on a three battlefield setup in the General Lotto game, a popular variant of the Colonel Blotto game. We characterize mixed equilibrium strategies and the equilibrium payoff as a function of the players’ budgets and battlefield valuations. This allows us to identify the parameter ranges in which the informed player has the competitive advantage. In a setting where both are uninformed and the weaker resource player has the option to exchange resources for information, we quantify the value of information when information costs a fraction of its budget."
         },
         {

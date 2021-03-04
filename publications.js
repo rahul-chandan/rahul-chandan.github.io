@@ -13,7 +13,7 @@ publications = [
         },
         {
             "title": "Incentivizing efficient use of shared infrastructure: Optimal tolls in congestion games",
-            "authors": "D. Paccagnan, <b>R. Chandan</b> and J. R. Marden",
+            "authors": "D. Paccagnan, <b>R. Chandan</b>, B. L. Ferguson and J. R. Marden",
             "conference": "ACM TEAC",
             "date": "2020",
             "status": "submitted",

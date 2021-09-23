@@ -3,9 +3,8 @@ var idx, pubsCards="", pubsHTML="", newsHTML="";
 for (idx in publications["Journal Articles"]) {
     pub = publications["Journal Articles"][idx];
     if (idx<4) {
-        pubsCards += '<div class="col-lg-3 col-md-6 col-sm-12 mb-4"><a href="#" class="pub" data-toggle="modal" data-target="#myModal" id="'+ 'pub_' + idx + '"><div class="card h-100"><div class="card-body"><h6 class="card-title">' + pub.title + '</h6><h6  class="card-subtitle mb-2 text-muted"><small>' + pub.authors + '</small></h6><p>' + pub.conference + " (" + pub.status + ')</p></div></div></a></div>';
+        pubsCards += '<div class="col-lg-3 col-md-6 col-sm-12 mb-4"><a href="#" class="pub" data-toggle="modal" data-target="#myModal" onclick="fillModal(this)" id="'+ 'pub_' + idx + '"><div class="card h-100"><div class="card-body"><h6 class="card-title text-capitalize">' + pub.title + '</h6><h6  class="card-subtitle mb-2 text-muted"><small>' + pub.authors + '</small></h6><p>' + pub.conference + " (" + pub.status + ')</p></div></div></a></div>';
     }
-    pubsHTML += '';
 }
 
 for (keyIdx in Object.keys(publications)) {
@@ -33,29 +32,32 @@ $(document).ready(function() {
     document.getElementById("news").innerHTML = newsHTML;
 });
 
-$(".pub").click(function(event) {
-    pubIdx = $(this)[0].id.split('_')[1];
-    document.getElementById("modalTitle").innerHTML = publications[pubIdx].title;
+// $(".pub").onclick  = 
+function fillModal(elt) {
+    pubIdx = elt.id.split('_')[1];
+    pub = publications["Journal Articles"][pubIdx];
+    console.log(pub);
+    document.getElementById("modalTitle").innerHTML = pub.title;
     document.getElementById("modalAuthors").innerHTML = "<p><small><b>Authors:</b> " + 
-        publications[pubIdx].authors + '</small></p>';
+        pub.authors + '</small></p>';
     document.getElementById("modalAbstract").innerHTML = "<p><small><b>Abstract:</b> " + 
-        publications[pubIdx].abstract.split('\n').join('</small></p><p><small>') + '</small></p>';
+        pub.abstract.split('\n').join('</small></p><p><small>') + '</small></p>';
     
-    if (publications[pubIdx].url == "") {
+    if (pub.url == "") {
         document.getElementById("modalarXiv").removeAttribute("href");
         document.getElementById("modalarXiv").removeAttribute("target");
     } else {
-        document.getElementById("modalarXiv").href = publications[pubIdx].url;
+        document.getElementById("modalarXiv").href = pub.url;
         document.getElementById("modalarXiv").target = "_blank";
     }
 
-    if (publications[pubIdx].pdfFile == "") {
+    if (pub.pdfFile == "") {
         document.getElementById("modalPDF").removeAttribute("href");
         document.getElementById("modalPDF").removeAttribute("target");
     }
     else {
-        document.getElementById("modalPDF").href = publications[pubIdx].pdfFile;
+        document.getElementById("modalPDF").href = pub.pdfFile;
         document.getElementById("modalPDF").target = "_blank";
     }
 
-});
+};

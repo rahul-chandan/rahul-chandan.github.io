@@ -1,7 +1,7 @@
 news = [
     {
         "date": "July 2021",
-        "body": "Two of my papers, titled <a class=\"news\" href=# target=\"_blank\">Mission Level Uncertainty in Multi-Agent Resource Allocation</a>, and <a class=\"news\" href=# target=\"_blank\">The Division of Assets in Multiagent Systems: A Case Study in Team Blotto Games</a>, have been accepted to the <i>2021 Conference on Decision and Control</i>, set to take place in Austin, TX!",
+        "body": "Two of my papers, titled <a class=\"news\" href=# target=\"_blank\">Mission Level Uncertainty in Multi-Agent Resource Allocation</a>, and <a class=\"news\" href=# target=\"_blank\">The Division of Assets in Multiagent Systems: A Case Study in Team Blotto Games</a>, have been accepted to the <i>2021 IEEE Conference on Decision and Control</i>, set to take place in Austin, TX!",
         "url": ""
     },
     {
@@ -30,6 +30,11 @@ news = [
         "url": ""
     },
     {
+        "date": "February 2021",
+        "body": "Our paper, titled <a class=\"news\" href=#>Optimal Taxes in Atomic Congestion Games</a> was accepted for publication to <i>Transactions on Economics and Computation (TEAC)</i>!",
+        "url": ""
+    },
+    {
         "date": "December 2020",
         "body": "My paper, titled <a class=\"news\" href=\"./publications/chandan2021tractable.pdf\" target=\"_blank\">Tractable mechanisms for computing near-optimal utility functions</a> was accepted to the <i>20th International Conference on Autonomous Agents and Multiagent Systems</i>.",
         "url": ""
@@ -42,11 +47,6 @@ news = [
     {
         "date": "July 2020",
         "body": "Presented my paper, titled <a class=\"news\" href=\"./publications/chandan2020when.pdf\" target=\"_blank\">When showing your hand pays off: Announcing strategic intentions in Colonel Blotto games</a> at my first virtual conference, the <i>2020 American Control Conference</i>, which was to take place in Denver, CO.",
-        "url": ""
-    },
-    {
-        "date": "June 2020",
-        "body": "Submitted our paper, titled <a class=\"news\" href=\"./publications/chandan2020whensmoothness.pdf\" target=\"_blank\">When Smoothness is Not Enough: Toward Exact Quantification and Optimization of the Price of Anarchy</a> to <i>Operations Research</i>.",
         "url": ""
     },
     {

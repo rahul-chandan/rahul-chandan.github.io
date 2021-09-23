@@ -1,4 +1,4 @@
-var idx, pubsCards="", pubsHTML="", newsHTML="";
+var idx, pubsCards="", pubsHTML="", newsShort="", newsLong="";
 
 for (idx in publications["Journal Articles"]) {
     pub = publications["Journal Articles"][idx];
@@ -18,19 +18,35 @@ for (keyIdx in Object.keys(publications)) {
 }
 
 for (idx in news) {
-    newsHTML += "<div class=\"col-sm-12\"><p id=\""+ "news_" + idx + "\">" + news[idx].date + " - " + news[idx].body;
+    newsItm = "";
+    newsItm += "<div class=\"col-sm-12\"><p id=\""+ "news_" + idx + "\">" + news[idx].date + " - " + news[idx].body;
     if (news[idx].url == "") {
-        newsHTML += "</p></div>";
+        newsItm += "</p></div>";
     } else {
-        newsHTML += " <a href=" + news[idx].url + ">Link</a></p></div>";
+        newsItm += " <a href=" + news[idx].url + ">Link</a></p></div>";
     }
+
+    if (idx < 4) {
+        newsShort += newsItm;
+    }
+    newsLong += newsItm;
 }
+newsShort += "<div class=\"col-sm-12\"><a href=\"javascript:void(0)\" onclick=\"newsExpand()\">See More</a></div>"
+newsLong += "<div class=\"col-sm-12\"><a href=\"javascript:void(0)\" onclick=\"newsShrink()\">See Less</a></div>"
 
 $(document).ready(function() {
     document.getElementById("selpub").innerHTML = pubsCards;
     document.getElementById("publications").innerHTML = pubsHTML;
-    document.getElementById("news").innerHTML = newsHTML;
+    document.getElementById("news").innerHTML = newsShort;
 });
+
+function newsShrink() {
+    document.getElementById("news").innerHTML = newsShort;
+};
+
+function newsExpand() {
+    document.getElementById("news").innerHTML = newsLong;
+};
 
 // $(".pub").onclick  = 
 function fillModal(elt) {

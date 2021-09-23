@@ -1,12 +1,12 @@
 news = [
     {
         "date": "July 2021",
-        "body": "Two of my papers, titled <a class=\"news\" href=# target=\"_blank\">Mission Level Uncertainty in Multi-Agent Resource Allocation</a>, and <a class=\"news\" href=# target=\"_blank\">The Division of Assets in Multiagent Systems: A Case Study in Team Blotto Games</a>, have been accepted to the <i>2021 IEEE Conference on Decision and Control</i>, set to take place in Austin, TX!",
+        "body": "Two of my papers, titled <a class=\"news\" href=\"https://arxiv.org/abs/2106.04029\" target=\"_blank\">Mission Level Uncertainty in Multi-Agent Resource Allocation</a>, and <a class=\"news\" href=\"https://arxiv.org/abs/2103.16688\" target=\"_blank\">The Division of Assets in Multiagent Systems: A Case Study in Team Blotto Games</a>, have been accepted to the <i>2021 IEEE Conference on Decision and Control</i>, set to take place in Austin, TX!",
         "url": ""
     },
     {
         "date": "July 2021",
-        "body": "Presented my poster, titled <a class=\"news\" href=# target=\"_blank\">The Anarchy-Stability Tradeoff in Congestion Games</a> at the <i>22nd ACM Conference on Economics and Computation</i>.",
+        "body": "Presented a poster, based on my paper <a class=\"news\" href=\"https://arxiv.org/abs/2107.06331\" target=\"_blank\">The Anarchy-Stability Tradeoff in Congestion Games</a>, at the <i>22nd ACM Conference on Economics and Computation</i>.",
         "url": ""
     },
     {

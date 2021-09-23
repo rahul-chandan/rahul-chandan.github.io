@@ -17,14 +17,29 @@ for (idx in news) {
     
 }
 
-document.getElementById("latestPublications").innerHTML = pubsHTML;
-document.getElementById("latestNews").innerHTML = newsHTML;
-document.getElementById("nav").innerHTML = 
-    "<ul class=\"nav nav-tabs\" style=\"border-bottom-color:white\"> <li class=\"nav-item\"> <a class=\"nav-link active\" href=\"./index.html\">Home</a> </li> <li> <a class=\"nav-link\" href=\"./software.html\">Software</a> </li></ul>";
+$(document).ready(function() {
+    $("#content").load('./home.html')
+
+    document.getElementById("latestPublications").innerHTML = pubsHTML;
+    document.getElementById("latestNews").innerHTML = newsHTML;
+    document.getElementById("nav").innerHTML = 
+        "<ul class=\"nav nav-tabs\" style=\"border-bottom-color:white\"> <li class=\"nav-item\"> <a class=\"nav-link active\" id=\"home-btn\">Home</a> </li> <li> <a class=\"nav-link\" id=\"software-btn\">Software</a> </li></ul>";
+});
+
+$(".nav-link").click(function(event) {
+    if ($(this)[0].classList.contains('active')) {
+        return;
+    }
+
+    $(".active").removeClass('active');
+    $(this).addClass('active');
+    fileName = $(this)[0].id.split('-')[0]+'.html';
+    document.getElementById('content').load(fileName);
+});
 
 $(".pub").click(function(event) {
     pubIdx = $(this)[0].id.split('_')[1];
-    console.log(publications[pubIdx]);
+    // console.log(publications[pubIdx]);
     document.getElementById("modalTitle").innerHTML = publications[pubIdx].title;
     document.getElementById("modalAuthors").innerHTML = "<p><small><b>Authors:</b> " + 
         publications[pubIdx].authors + '</small></p>';

@@ -1,5 +1,35 @@
 news = [
     {
+        "date": "July 2021",
+        "body": "Two of my papers, titled <a class=\"news\" href=# target=\"_blank\">Mission Level Uncertainty in Multi-Agent Resource Allocation</a>, and <a class=\"news\" href=# target=\"_blank\">The Division of Assets in Multiagent Systems: A Case Study in Team Blotto Games</a>, have been accepted to the <i>2021 Conference on Decision and Control</i>, set to take place in Austin, TX!",
+        "url": ""
+    },
+    {
+        "date": "July 2021",
+        "body": "Presented my poster, titled <a class=\"news\" href=# target=\"_blank\">The Anarchy-Stability Tradeoff in Congestion Games</a> at the <i>22nd ACM Conference on Economics and Computation</i>.",
+        "url": ""
+    },
+    {
+        "date": "June 2021",
+        "body": "Presented my work on \"Mechanism design for multiagent coordination\" to the Rigorous Systems Research Group (RSRG, pronounced \"resurge\") at Caltech. Thank you for the invite and warm welcome, I thoroughly enjoyed our discussion!",
+        "url": ""
+    },
+    {
+        "date": "June 2021",
+        "body": "Received the Outstanding TA Award 2020-21 from the ECE Department at UCSB, my second year in a row!",
+        "url": ""
+    },
+    {
+        "date": "May 2021",
+        "body": "Presented my paper, titled <a class=\"news\" href=\"./publications/chandan2021tractable.pdf\" target=\"_blank\">Tractable mechanisms for computing near-optimal utility functions</a> at the <i>20th International Conference on Autonomous Agents and Multiagent Systems</i>, my second virtual conference.",
+        "url": ""
+    },
+    {
+        "date": "March 2021",
+        "body": "Returned to Santa Barbara, CA after spending over a year at home in Ottawa, Canada.",
+        "url": ""
+    },
+    {
         "date": "December 2020",
         "body": "My paper, titled <a class=\"news\" href=\"./publications/chandan2021tractable.pdf\" target=\"_blank\">Tractable mechanisms for computing near-optimal utility functions</a> was accepted to the <i>20th International Conference on Autonomous Agents and Multiagent Systems</i>.",
         "url": ""
@@ -17,6 +47,11 @@ news = [
     {
         "date": "June 2020",
         "body": "Submitted our paper, titled <a class=\"news\" href=\"./publications/chandan2020whensmoothness.pdf\" target=\"_blank\">When Smoothness is Not Enough: Toward Exact Quantification and Optimization of the Price of Anarchy</a> to <i>Operations Research</i>.",
+        "url": ""
+    },
+    {
+        "date": "May 2020",
+        "body": "Received the Outstanding TA Award 2019-20 from the ECE Department at UCSB, in recognition of my outstanding efforts in teaching ECE 194B Convex Optimization!",
         "url": ""
     },
     {

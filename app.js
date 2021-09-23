@@ -1,19 +1,36 @@
-$(document).ready(function() {
-    document.getElementById("nav").innerHTML = 
-        "<ul class=\"nav nav-tabs\" style=\"border-bottom-color:white\"> <li class=\"nav-item\"> <a class=\"nav-link active\" id=\"home-btn\" href=\"javascript:void(0);\">Home</a> </li> <li> <a class=\"nav-link\" id=\"software-btn\" href=\"javascript:void(0);\">Software</a> </li></ul>";
+var idx, pubsCards="", pubsHTML="", newsHTML="";
 
-    $("#content").load('home.html');
-});
-
-$(".nav-link").click(function(event) {
-    if ($(this)[0].classList.contains('active')) {
-        return;
+for (idx in publications["Journal Articles"]) {
+    pub = publications["Journal Articles"][idx];
+    if (idx<4) {
+        pubsCards += '<div class="col-lg-3 col-md-6 col-sm-12 mb-4"><a href="#" class="pub" data-toggle="modal" data-target="#myModal" id="'+ 'pub_' + idx + '"><div class="card h-100"><div class="card-body"><h6 class="card-title">' + pub.title + '</h6><h6  class="card-subtitle mb-2 text-muted"><small>' + pub.authors + '</small></h6><p>' + pub.conference + " (" + pub.status + ')</p></div></div></a></div>';
     }
+    pubsHTML += '';
+}
 
-    $(".active").removeClass('active');
-    $(this).addClass('active');
-    fileName = $(this)[0].id.split('-')[0]+'.html';
-    document.getElementById('content').load(fileName);
+for (keyIdx in Object.keys(publications)) {
+    key = Object.keys(publications)[keyIdx]
+    pubsHTML += '<h5>' + key + '</h5><ul style="margin-bottom: 50px">';
+    for (pubIdx in publications[key]) {
+        pub = publications[key][pubIdx]
+        pubsHTML+='<li style="margin-bottom: 15px"><a class="text-capitalize" href="'+pub.url+'" target="_blank">'+pub.title+'</a><br>'+pub.authors+'<br><i>'+pub.conferencelong+'</i> ('+pub.status+'), '+pub.date+'.</li>'
+    }
+    pubsHTML += "</ul>";
+}
+
+for (idx in news) {
+    newsHTML += "<div class=\"col-sm-12\"><p id=\""+ "news_" + idx + "\">" + news[idx].date + " - " + news[idx].body;
+    if (news[idx].url == "") {
+        newsHTML += "</p></div>";
+    } else {
+        newsHTML += " <a href=" + news[idx].url + ">Link</a></p></div>";
+    }
+}
+
+$(document).ready(function() {
+    document.getElementById("selpub").innerHTML = pubsCards;
+    document.getElementById("publications").innerHTML = pubsHTML;
+    document.getElementById("news").innerHTML = newsHTML;
 });
 
 $(".pub").click(function(event) {

@@ -7,6 +7,7 @@ for (idx in publications["Journal Articles"]) {
     }
 }
 
+// pubsHTML += '<h3 style="margin-top:30px; margin-bottom: 15px">Publications</h3>'
 for (keyIdx in Object.keys(publications)) {
     key = Object.keys(publications)[keyIdx]
     pubsHTML += '<h5>' + key + '</h5><ul style="margin-bottom: 50px">';

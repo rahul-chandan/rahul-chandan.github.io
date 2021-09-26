@@ -3,8 +3,8 @@ publications = {
         {
             "title": "The anarchy-stability tradeoff in congestion games",
             "authors": "<b>R. Chandan</b>, D. Paccagnan and J. R. Marden",
-            "conference": "GEB",
-            "conferencelong": "Games and Economic Behaviour (GEB)",
+            "conference": "TBA",
+            "conferencelong": "To Be Announced (TBA)",
             "date": "2021",
             "status": "submitted",
             "pdfFile": "",
@@ -14,8 +14,8 @@ publications = {
         {
             "title": "A General Lotto game with asymmetric budget uncertainty",
             "authors": "K. Paarporn, <b>R. Chandan</b>, M. Alizadeh and J. R. Marden",
-            "conference": "MOR",
-            "conferencelong": "Mathematics of Operations Research (MOR)",
+            "conference": "TBA",
+            "conferencelong": "To Be Announced (TBA)",
             "date": "2021",
             "status": "submitted",
             "pdfFile": "",
@@ -25,8 +25,8 @@ publications = {
         {
             "title": "When smoothness is not enough: Toward exact quantification and optimization of the price of anarchy",
             "authors": "<b>R. Chandan</b>, D. Paccagnan and J. R. Marden",
-            "conference": "MOR",
-            "conferencelong": "Mathematics of Operations Research (MOR)",
+            "conference": "TBA",
+            "conferencelong": "To Be Announced (TBA)",
             "date": "2021",
             "status": "submitted",
             "pdfFile": "./publications/chandan2021when.pdf",
@@ -56,7 +56,7 @@ publications = {
             "abstract": "Game theory has emerged as a fruitful paradigm for the design of networked multiagent systems. A fundamental component of this approach is the design of agents' utility functions so that their self-interested maximization results in a desirable collective behavior. In this work we focus on a well-studied class of distributed resource allocation problems where each agent is requested to select a subset of resources with the goal of optimizing a given system-level objective. Our core contribution is the development of a novel framework to tightly characterize the worst case performance of any resulting Nash equilibrium (price of anarchy) as a function of the chosen agents' utility functions. Leveraging this result, we identify how to design such utilities so as to optimize the price of anarchy through a tractable linear program. This provides us with a priori performance certificates applicable to any existing learning algorithm capable of driving the system to an equilibrium. Part II of this work specializes these results to submodular and supermodular objectives, discusses the complexity of computing Nash equilibria, and provides multiple illustrations of the theoretical findings."
         }
     ],
-    "Conference Articles": [
+    "Peer-Reviewed Conference Articles": [
         {
             "title": "The Division of Assets in Multiagent Systems: A Case Study in Team Blotto Games",
             "authors": "K. Paarporn, <b>R. Chandan</b>, M. Alizadeh and J. R. Marden",

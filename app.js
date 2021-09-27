@@ -12,8 +12,12 @@ for (keyIdx in Object.keys(publications)) {
     key = Object.keys(publications)[keyIdx]
     pubsHTML += '<h5>' + key + '</h5><ul style="margin-bottom: 50px">';
     for (pubIdx in publications[key]) {
-        pub = publications[key][pubIdx]
-        pubsHTML+='<li style="margin-bottom: 15px"><a class="text-capitalize" href="'+pub.url+'" target="_blank">'+pub.title+'</a><br>'+pub.authors+'<br><i>'+pub.conferencelong+'</i> ('+pub.status+'), '+pub.date+'.</li>'
+        pub = publications[key][pubIdx];
+        if (pub.status == "working") {
+            pubsHTML+='<li style="margin-bottom: 15px"><a class="text-capitalize" href="'+pub.url+'" target="_blank">'+pub.title+'</a><br>'+pub.authors+', '+pub.date+'.</li>';
+        } else {
+            pubsHTML+='<li style="margin-bottom: 15px"><a class="text-capitalize" href="'+pub.url+'" target="_blank">'+pub.title+'</a><br>'+pub.authors+'<br><i>'+pub.conferencelong+'</i> ('+pub.status+'), '+pub.date+'.</li>';
+        }
     }
     pubsHTML += "</ul>";
 }

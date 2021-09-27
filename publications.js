@@ -1,12 +1,12 @@
 publications = {
-    "Journal Articles": [
+    "Working Papers": [
         {
             "title": "The anarchy-stability tradeoff in congestion games",
             "authors": "<b>R. Chandan</b>, D. Paccagnan and J. R. Marden",
             "conference": "TBA",
             "conferencelong": "To Be Announced (TBA)",
             "date": "2021",
-            "status": "submitted",
+            "status": "working",
             "pdfFile": "",
             "url": "https://arxiv.org/abs/2107.06331",
             "abstract": "This work focuses on the design of incentive mechanisms in congestion games, a commonly studied model for competitive resource sharing. While the majority of the existing literature on this topic focuses on unilaterally optimizing the worst case performance (i.e., price of anarchy), in this manuscript we investigate whether optimizing for the worst case has consequences on the best case performance (i.e., price of stability). Perhaps surprisingly, our results show that there is a fundamental tradeoff between these two measures of performance. Our main result provides a characterization of this tradeoff in terms of upper and lower bounds on the Pareto frontier between the price of anarchy and the price of stability. Interestingly, we demonstrate that the mechanism that optimizes the price of anarchy inherits a matching price of stability, thereby implying that the best equilibrium is not necessarily any better than the worst equilibrium for such a design choice. Our results also establish that, in several well-studied cases, the unincentivized setting does not even lie on the Pareto frontier, and that any incentive with price of stability equal to 1 incurs a much higher price of anarchy."
@@ -17,7 +17,7 @@ publications = {
             "conference": "TBA",
             "conferencelong": "To Be Announced (TBA)",
             "date": "2021",
-            "status": "submitted",
+            "status": "working",
             "pdfFile": "",
             "url": "https://arxiv.org/abs/2106.12133",
             "abstract": "We consider General Lotto games of asymmetric information where one player's resource endowment is randomly assigned one of two possible values, and the assignment is not revealed to the opponent. We completely characterize the Bayes-Nash equilibria for two such formulations -- namely, one in which the opponent's endowment is fixed and common knowledge, and another where the opponent has a per-unit cost to utilize resources. We then highlight the impact these characterizations have on resource allocation problems involving a central commander that decides how to assign available resources to two sub-colonels competing in separate Lotto games against respective opponents. We find that randomized assignments, which induce the Bayesian game interactions, do not offer strategic advantages over deterministic ones when the opponents have fixed resource endowments. However, this is not the case when the opponents have per-unit costs to utilize resources. We find the optimal randomized assignment strategy can actually improve the commander's payoff two-fold when compared to optimal deterministic assignments, and four-fold in settings where the commander also pays a per-unit cost for resources."
@@ -28,11 +28,13 @@ publications = {
             "conference": "TBA",
             "conferencelong": "To Be Announced (TBA)",
             "date": "2021",
-            "status": "submitted",
+            "status": "working",
             "pdfFile": "./publications/chandan2021when.pdf",
             "url": "https://arxiv.org/abs/1911.07823",
             "abstract": "The design of incentives that promote efficient user behaviours in competitive settings hinges on our ability to accurately evaluate the performance of emergent system outcomes. In these settings, the most popular performance metric is the price of anarchy, which is the ratio between the worst emergent behaviour and the system optimum. Although the study of the price of anarchy is widespread, obtaining exact bounds even for a specified class of games remains a challenge. The widely studied smoothness framework (Roughgarden 2015) is capable of providing universal price of anarchy bounds for a large class of games, but fails to provide exact bounds when the system-level objective is not necessarily aligned with social welfare.\nGiven this limitation, we introduce a generalization of the smoothness framework which alleviates this issue. Based on this framework, we provide a tractable mechanism for computing the exact price of anarchy for a class of games wherein the sum over agents' local costs is not necessarily equal to the social cost (e.g., congestion games with incentives). Furthermore, we demonstrate how this mechanism extends naturally to a methodology for deriving incentive structures that optimize the price of anarchy. We conclude the paper by applying our techniques to the problem of rebate design in atomic congestion games. Interestingly, our findings suggest that there is a significant gap between the performance guarantees and efficient incentive structures in discrete environments when compared to their continuous flow counterparts.\n<i>For the interested reader, the authors provide a software package, available in both MATLAB® and Python, that implements the techniques described in this manuscript at <a target=\"_blank\" href=\"https://github.com/rahul-chandan/resalloc-poa\">https://github.com/rahul-chandan/resalloc-poa</a>.</i>"
-        },
+        }
+    ],
+    "Journal Articles": [
         {
             "title": "Optimal taxes in congestion games",
             "authors": "D. Paccagnan, <b>R. Chandan</b>, B. L. Ferguson and J. R. Marden",

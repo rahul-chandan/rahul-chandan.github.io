@@ -85,7 +85,7 @@ publications = {
             "title": "Tractable mechanisms for computing near-optimal utility functions",
             "authors": "<b>R. Chandan</b>, D. Paccagnan and J. R. Marden",
             "conference": "AAMAS 2021",
-            "conferencelong": "20th International Conference on Autonomous Agents and Multiagent Systems",
+            "conferencelong": "20th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)",
             "date": "2021",
             "status": "in proceedings, presented",
             "pdfFile": "./publications/chandan2021tractable.pdf",

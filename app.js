@@ -65,7 +65,7 @@ function newsExpand() {
 // $(".pub").onclick  = 
 function fillModal(elt) {
     pubIdx = elt.id.split('_')[1];
-    pub = publications["Journal Articles"][pubIdx];
+    pub = selPubs[pubIdx];
     console.log(pub);
     document.getElementById("modalTitle").innerHTML = pub.title;
     document.getElementById("modalAuthors").innerHTML = "<p><small><b>Authors:</b> " + 

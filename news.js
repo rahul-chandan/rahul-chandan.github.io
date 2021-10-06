@@ -15,6 +15,11 @@ news = [
         "url": ""
     },
     {
+        "date": "July 2021",
+        "body": "Presented my work on \"Mechanism design for multiagent coordination\" alongside my advisor, Jason Marden, at the Distributed and Collaborative Intelligent Systems and Technology (DCIST) T2C1 meeting.",
+        "url": "https://www.dcist.org/"
+    },
+    {
         "date": "June 2021",
         "body": "Presented my work on \"Mechanism design for multiagent coordination\" to the Rigorous Systems Research Group (RSRG, pronounced \"resurge\") at Caltech. Thank you Prof. Wierman and team for the invite and warm welcome, I thoroughly enjoyed our discussion!",
         "url": ""

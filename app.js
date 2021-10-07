@@ -37,7 +37,7 @@ for (idx in news) {
     if (news[idx].url == "") {
         newsItm += "</p></div>";
     } else {
-        newsItm += " <a href=" + news[idx].url + ">Link</a></p></div>";
+        newsItm += " [<a href=" + news[idx].url + ">Link</a>]</p></div>";
     }
 
     if (idx < 4) {

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!-- Add icon libraries -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,6 +38,11 @@
 
         .pdf:hover {
             color: #711111;
+        }
+
+        .pdf:not([href]):not([tabindex]) {
+            color: darkgrey;
+            text-decoration: none;
         }
 
         .jumbotron {
@@ -124,16 +129,41 @@
     <div class="container" style="margin-top:30px; margin-bottom: 30px">
         <div class="tab-content">            
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <p>
-                    I am a PhD student in the Department of Electrical and Computer Engineering, University of California, Santa Barbara.
-                    My supervisor is <a href="https://www.ece.ucsb.edu/~jrmarden/index.html">Jason Marden</a>.
-                    Previously, I completed my BASc in Engineering Science (Electrical and Computer Engineering Option) with a minor in Robotics and Mechatronics at the University of Toronto.
-                </p>
-                <p>
-                    <b>Research:</b>
-                    My research work focuses on the applications of game theory and optimization to problems at the intersection of engineering, computer science and operations research.
-                    I have recently been investigating the design of influence mechanisms and the manipulation of information for the coordination of multiagent systems (for example, traffic routing, political campaigns, flocks of drones, etc.).
-                </p>
+                <div>
+                    <p class="text-justify">
+                        I am a PhD student in the Department of Electrical and Computer Engineering, University of California, Santa Barbara.
+                        My supervisor is <a href="https://www.ece.ucsb.edu/~jrmarden/index.html">Jason Marden</a>.  Previously, I completed my BASc in Engineering Science (Electrical and Computer Engineering Option) with a minor in Robotics and Mechatronics at the University of Toronto.
+                    </p>
+                </div>
+                <div>
+                    <p class="text-justify"><strong>Research Overview:</strong> My research work focuses on the applications of game theory and optimization to problems at the intersection of economics, engineering, computer science and operations research.  I have recently been investigating the design of coordination mechanisms and the manipulation of information in multiagent systems (for example, traffic routing, political campaigns, flocks of drones, etc.).</p>
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="./figs/hippos.jpg" class="rounded mr-3" style="width:120px; height:auto;" alt="A game of Hungry, Hungry Hippos.">
+                            <div class="media-body">
+                                <p class="text-justify" style="margin-bottom: 0px;"><strong>1) Coordination mechanisms for the common good:</strong>  In systems with limited resources, the uncoordinated actions of self-interested decision makers have been observed to significantly deviate from joint behaviour that would otherwise maximize the system welfare (see, for example, the <em>tragedy of the commons</em> and <em>Price of Anarchy</em> in economics).  The study of <em>coordination mechanisms</em> aims to identify interventions that mitigate such losses in the system welfare.  Examples of coordination mechanisms are monetary tolls and rebates in transportation networks.  Though inefficiency &#8212; when compared to the optimum &#8212; is inevitable under self-interested decision making, appropriately designed coordination mechanisms significantly improve the efficiency of the emergent behaviour.<br>
+                                Within this research area, I have pursued the following directions:</p>
+                                <ul style="margin-bottom: 1rem; list-style: initial; padding-left: 1rem;">
+                                    <li>Efficient and exact techniques for computing optimal coordination mechanisms;</li>
+                                    <li>Robustness of coordination mechanisms to information inconsistencies; and,</li>
+                                    <li>Inherent tradeoffs in the joint optimization of the worst- and best-case efficiency, and of the short- and long-term efficiency.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <img src="./figs/chess.jpg" class="rounded mr-3" style="width:120px; height:auto;" alt="A game of chess before play begins.">
+                            <div class="media-body">
+                                <p class="text-justify" style="margin-bottom: 0px;"><strong>2) The strategic role of information in competitive environments:</strong> Real-world competitive resource allocation problems (for example, political campaigns, competitive markets, military strategy, etc.) can be represented as vast interaction graphs with self-interested decision makers at the nodes, and competitions over valuable prizes on the edges.  Beyond the characterization of strategic behaviour under established models (for example, positional games, contests, Colonel Blotto games, etc.), it is important to determine whether exogenous mechanisms exist whereby a decision maker can improve her competitive position.  My work in this area centres on identifying the benefits that withholding, revealing, and otherwise manipulating information can have in competitive environments.<br>
+                                Within this research area, I have pursued the following directions:</p>
+                                <ul style="margin-bottom: 1rem; list-style: initial; padding-left: 1rem;">
+                                    <li>The value of budgetary and system-level information;</li>
+                                    <li>Existence of beneficial pre-commitments (revealing strategic information); and,</li>
+                                    <li>The delegation of resources to subcommanders with overlapping local objectives.</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
                 <h3 style="margin-top:30px; margin-bottom: 30px">Select Publications</h3>
                 <div class="row" id="selpub"></div>
                 <h3 style="margin-top:30px; margin-bottom: 30px">News</h3>
@@ -148,15 +178,15 @@
             <div class="tab-pane fade" id="publications" role="tabpanel" aria-labelledby="publications-tab">
             </div>
             <div class="tab-pane fade" id="software" role="tabpanel" aria-labelledby="software-tab">
-                <p>
+                <p class="text-justify">
                     I have prepared software packages to accompany some of my publications in the hope that interested readers may take additional value from my work by playing around with the code, and deriving the simulation results for themselves.
                 </p>
-                <p>
+                <p class="text-justify">
                     I am by no means an experienced programmer in any of the programming languages used, and there may very well be bugs and inconsistencies in the code provided.
                     I welcome any feedback regarding improvements to these packages, but cannot promise to respond, or implement any changes, in a timely manner.
                     Nevertheless, feel free to contact me with your feedback at <tt>rchandan@ucsb.edu</tt>.
                 </p>
-                <p>The packages below are organized by their corresponding publication:</p>
+                <p class="text-justify">The packages below are organized by their corresponding publication:</p>
                 <div style="margin-bottom: 50px">
                 <ul>
                     <li>
@@ -198,12 +228,8 @@
         <p>This page's code is available on <a href="https://github.com/rahul-chandan">GitHub</a> and is covered by the <a href="./gpl-3.0.txt">GNU Standard License, Version 3 (GPLv3)</a>.</p>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/db57e2a7e9.js"></script>
     <script type="text/javascript" src="news.js"></script>
     <script type="text/javascript" src="publications.js"></script>

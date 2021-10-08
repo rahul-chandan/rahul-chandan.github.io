@@ -1,5 +1,10 @@
 news = [
     {
+        "date": "October 2021",
+        "body": "Presented my work on \"Strategic mechanisms for multiagent coordination\" to Dr. Philip Brown's steadily growing group at University of Colorado, Colorado Springs.",
+        "url": ""
+    },
+    {
         "date": "September 2021",
         "body": "Scheduled my candidacy exam (i.e., thesis proposal) for Tuesday, October 26th, 2021! My thesis is to be on the design of utility and information in the coordination of multiagent systems. More details to come!",
         "url": ""

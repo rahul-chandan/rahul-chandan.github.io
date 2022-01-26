@@ -81,13 +81,24 @@ publications = {
         }
     },
     "Peer-Reviewed Conference Articles":{
+        "c9":{
+            "title": "The Art of Concession in General Lotto Games",
+            "authors": "<b>R. Chandan</b>, K. Paarporn, D. Kovenock, M. Alizadeh and J. R. Marden",
+            "conference": "GameNets 2021",
+            "conferencelong": "EAI Game Theory for Networks 2021",
+            "date": "2021",
+            "status": "presented, in proceedings",
+            "pdfFile": "./publications/chandan2021art.pdf",
+            "url": "./publications/chandan2021art.pdf",
+            "abstract": "Success in adversarial environments often requires investment into additional resources in order to improve one's competitive position. But, can intentionally decreasing one's own competitiveness ever provide strategic benefits in such settings? In this paper, we focus on characterizing the role of ``concessions'' as a component of strategic decision making. Specifically, we investigate whether a player can gain an advantage by either conceding budgetary resources or conceding valuable prizes to an opponent. While one might na{\"i}vely assume that the player cannot, our work demonstrates that -- perhaps surprisingly -- concessions do offer strategic benefits when made correctly. In the context of General Lotto games, we first show that neither budgetary concessions nor value concessions can be advantageous to either player in a 1-vs.-1 scenario. However, in settings where two players compete against a common adversary, we find opportunities for one of the two players to improve her payoff by conceding a prize to the adversary. We provide necessary and sufficient conditions on the parameters for which such concessions exist, and identify the optimal prize value to concede."
+        },
         "c8":{
             "title": "The Division of Assets in Multiagent Systems: A Case Study in Team Blotto Games",
             "authors": "K. Paarporn, <b>R. Chandan</b>, M. Alizadeh and J. R. Marden",
             "conference": "CDC 2021",
             "conferencelong": "60th IEEE Conference on Decision and Control (CDC)",
             "date": "2021",
-            "status": "accepted",
+            "status": "in proceedings",
             "pdfFile": "",
             "url": "https://arxiv.org/abs/2103.16688",
             "abstract": "Multi-agent systems are designed to concurrently accomplish a diverse set of tasks at unprecedented scale. Here, the central problems faced by a system operator are to decide (i) how to divide available resources amongst the agents assigned to tasks and (ii) how to coordinate the behavior of the agents to optimize the efficiency of the resulting collective behavior. The focus of this paper is on problem (i), where we seek to characterize the impact of the division of resources on the best-case efficiency of the resulting collective behavior. Specifically, we focus on a team Colonel Blotto game where there are two sub-colonels competing against a common adversary in a two battlefield environment. Here, each sub-colonel is assigned a given resource budget and is required to allocate these resources independent of the other sub-colonel. However, their success is dependent on the allocation strategy of both sub-colonels. The central focus of this manuscript is on how to divide a common pool of resources among the two sub-colonels to optimize the resulting best-case efficiency guarantees. Intuitively, one would imagine that the more balanced the division of resources, the worse the performance, as such divisions restrict the sub-colonels' ability to employ joint randomized strategies that tend to be necessary for optimizing performance guarantees. However, the main result of this paper demonstrates that this intuition is actually incorrect. A more balanced division of resources can offer better performance guarantees than a more centralized division. Hence, this paper demonstrates that the resource division problem is highly non-trivial in such enmeshed environments and worthy of significant future research efforts."
@@ -98,7 +109,7 @@ publications = {
             "conference": "CDC 2021",
             "conferencelong": "60th IEEE Conference on Decision and Control (CDC)",
             "date": "2021",
-            "status": "accepted",
+            "status": "in proceedings",
             "pdfFile": "",
             "url": "https://arxiv.org/abs/2106.04029",
             "abstract": "In recent years, a significant research effort has been devoted to the design of distributed protocols for the control of multi-agent systems, as the scale and limited communication bandwidth characteristic of such systems render centralized control impossible. Given the strict operating conditions, it is unlikely that every agent in a multi-agent system will have local information that is consistent with the true system state. Yet, the majority of works in the literature assume that agents share perfect knowledge of their environment. This paper focuses on understanding the impact that inconsistencies in agents' local information can have on the performance of multi-agent systems. More specifically, we consider the design of multi-agent operations under a game theoretic lens where individual agents are assigned utilities that guide their local decision making. We provide a tractable procedure for designing utilities that optimize the efficiency of the resulting collective behavior (i.e., price of anarchy) for classes of set covering games where the extent of the information inconsistencies is known. In the setting where the extent of the informational inconsistencies is not known, we show -- perhaps surprisingly -- that underestimating the level of uncertainty leads to better price of anarchy than overestimating it."

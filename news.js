@@ -1,5 +1,25 @@
 news = [
     {
+        "date": "December 2021",
+        "body": "Our abstract \"Optimizing Global Traffic Patterns via Vehicle Communication Policies\" was selected for the Proposal phase of the <i>Qualcomm Innovation Fellowship (North America) 2022</i>!",
+        "url": "https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/2022-north-america"
+    },
+    {
+        "date": "December 2021",
+        "body": "Presented my work on \"The Art of Concession in General Lotto Games\" at <i>EAI GameNets 2021</i>, and received the <i>Best Community-voted Presentation Award</i>!",
+        "url": "https://gamenets.eai-conferences.org/2021/best-community-voted-presentations/"
+    },
+    {
+        "date": "November 2021",
+        "body": "Our work titled <a href=\"./publications/chandan2021art.pdf\" class=\"news\" target=\"_blank\">The Art of Concession in General Lotto Games</a> was accepted at <i>EAI GameNets 2021</i>.",
+        "url": ""
+    },
+    {
+        "date": "October 2021",
+        "body": "Presented my candidacy exam (i.e., thesis proposal) on Tuesday, October 26th, 2021 to a hybrid audience! My thesis title is \"Strategic Mechanisms for Multiagent Coordination\".",
+        "url": ""
+    },
+    {
         "date": "October 2021",
         "body": "Presented my work on \"Strategic mechanisms for multiagent coordination\" to Dr. Philip Brown's steadily growing group at University of Colorado, Colorado Springs.",
         "url": ""
